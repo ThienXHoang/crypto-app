@@ -12,7 +12,7 @@ const Header = () => {
       <div className="main-container inner">
         <Link href={"/"}>
           <Image
-            src={"cryptocurrency.svg"}
+            src={"/cryptocurrency.svg"}
             alt="logo"
             width={132}
             height={40}
@@ -29,6 +29,7 @@ const Header = () => {
           >
             Home
           </Link>
+          <p>Search</p>
           <Link
             href={"/coins"}
             className={cn("nav-link", {
